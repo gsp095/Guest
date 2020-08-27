@@ -3,3 +3,8 @@
 ################################################################################
 
 /Guesty.Data/bin/Debug/netcoreapp3.1
+/Guesty.Repository/bin/Debug/netcoreapp3.1
+/Guesty.Data/obj
+/Guesty.Repository/obj
+/Guesty.Web/bin/Debug/netcoreapp3.1
+/Guesty.Web/obj

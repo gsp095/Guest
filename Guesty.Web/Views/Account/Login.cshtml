@@ -1,0 +1,54 @@
+﻿@model LoginViewModel
+@{
+    ViewData["Title"] = "Login";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+<div class="row">
+    <div class="col-md-4">
+        <section>
+            <form asp-route-returnurl="@ViewData["ReturnUrl"]" id="frmLogin" asp-action="Login">
+                <h1>Login</h1>
+                <hr />
+                <div class="text-danger">
+                    @foreach (var item in ViewContext.ViewData.ModelState)
+                    {
+                        @(string.Join(", ", item.Value.Errors.Select(x => x.ErrorMessage)));
+                    }
+
+
+                </div>
+                <div class="form-group">
+                    <label asp-for="Email"></label>
+                    <input asp-for="Email" class="form-control" />
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Password"></label>
+                    <input asp-for="Password" class="form-control" />
+                    <span asp-validation-for="Password" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <div class="checkbox">
+                        <label asp-for="RememberMe">
+                            <input asp-for="RememberMe" />
+                            @Html.DisplayNameFor(m => m.RememberMe)
+                        </label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <button id="btnLogin" type="submit" class="btn btn-primary" >Log in</button>
+                </div>
+                <div class="form-group">
+                  
+                    <p>
+                        <a asp-action="SignUp" asp-route-returnurl="@ViewData["ReturnUrl"]">Sign Up</a>
+                    </p>
+                </div>
+            </form>
+        </section>
+    </div>
+
+</div>
