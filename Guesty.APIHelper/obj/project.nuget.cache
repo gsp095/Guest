@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "bqCffmKWv9k0bhrapfqb/odqjDVyqo4Og6nRlu3+dXMaeQuifH8onxhwhQfBNMsUj2O4iC2YGVryMC5SslbKbA==",
+  "success": true,
+  "projectFilePath": "F:\\Govind\\DOtnet\\GuestGit\\Guesty.APIHelper\\Guesty.APIHelper.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Roshan\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.7\\microsoft.extensions.configuration.3.1.7.nupkg.sha512",
+    "C:\\Users\\Roshan\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.7\\microsoft.extensions.configuration.abstractions.3.1.7.nupkg.sha512",
+    "C:\\Users\\Roshan\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.7\\microsoft.extensions.primitives.3.1.7.nupkg.sha512",
+    "C:\\Users\\Roshan\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

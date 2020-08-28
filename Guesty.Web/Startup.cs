@@ -2,6 +2,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Guesty.APIHelper;
+using Guesty.APIHelper.Models;
 using Guesty.Data;
 using Guesty.Data.Models;
 using Microsoft.AspNetCore.Builder;
@@ -33,6 +35,8 @@ namespace Guesty.Web
             services.AddIdentity<ApplicationUser, IdentityRole>()
                 .AddEntityFrameworkStores<ApplicationDbContext>()
                 .AddDefaultTokenProviders();
+            services.Configure<ApiDetails>(options => Configuration.Bind("GustyAPI", options));
+            services.AddTransient<IGustyAPICall, GustyAPICall>();
             services.AddControllersWithViews();
         }
 

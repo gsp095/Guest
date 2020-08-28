@@ -1,0 +1,70 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\Govind\\DOtnet\\GuestGit\\Guesty.APIHelper\\Guesty.APIHelper.csproj": {}
+  },
+  "projects": {
+    "F:\\Govind\\DOtnet\\GuestGit\\Guesty.APIHelper\\Guesty.APIHelper.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Govind\\DOtnet\\GuestGit\\Guesty.APIHelper\\Guesty.APIHelper.csproj",
+        "projectName": "Guesty.APIHelper",
+        "projectPath": "F:\\Govind\\DOtnet\\GuestGit\\Guesty.APIHelper\\Guesty.APIHelper.csproj",
+        "packagesPath": "C:\\Users\\Roshan\\.nuget\\packages\\",
+        "outputPath": "F:\\Govind\\DOtnet\\GuestGit\\Guesty.APIHelper\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Roshan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

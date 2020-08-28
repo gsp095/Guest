@@ -1,0 +1,9 @@
+F:\Govind\DOtnet\GuestGit\Guesty.APIHelper\bin\Debug\netcoreapp3.1\Guesty.APIHelper.deps.json
+F:\Govind\DOtnet\GuestGit\Guesty.APIHelper\bin\Debug\netcoreapp3.1\Guesty.APIHelper.dll
+F:\Govind\DOtnet\GuestGit\Guesty.APIHelper\bin\Debug\netcoreapp3.1\Guesty.APIHelper.pdb
+F:\Govind\DOtnet\GuestGit\Guesty.APIHelper\obj\Debug\netcoreapp3.1\Guesty.APIHelper.csprojAssemblyReference.cache
+F:\Govind\DOtnet\GuestGit\Guesty.APIHelper\obj\Debug\netcoreapp3.1\Guesty.APIHelper.AssemblyInfoInputs.cache
+F:\Govind\DOtnet\GuestGit\Guesty.APIHelper\obj\Debug\netcoreapp3.1\Guesty.APIHelper.AssemblyInfo.cs
+F:\Govind\DOtnet\GuestGit\Guesty.APIHelper\obj\Debug\netcoreapp3.1\Guesty.APIHelper.dll
+F:\Govind\DOtnet\GuestGit\Guesty.APIHelper\obj\Debug\netcoreapp3.1\Guesty.APIHelper.pdb
+F:\Govind\DOtnet\GuestGit\Guesty.APIHelper\obj\Debug\netcoreapp3.1\Guesty.APIHelper.csproj.CoreCompileInputs.cache
