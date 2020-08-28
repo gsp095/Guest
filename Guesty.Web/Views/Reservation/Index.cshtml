@@ -1,0 +1,76 @@
+﻿
+@{
+    ViewData["Title"] = "Reservation";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="row">
+    <div class="col-lg-12">
+        <table class="display" id="tblReservation" style="width:100%">
+            <thead>
+                <tr>
+                    <th>CHECK IN</th>
+                    <th>CHECK OUT</th>
+                    <th>Confirmation Code</th>
+                    <th>Listing</th>
+                    <th>Guest</th>
+
+                </tr>
+            </thead>
+          
+        </table>
+    </div>
+
+</div>
+
+<script src="~/js/datatables.min.js"></script>
+
+@section Scripts { 
+<script type="text/javascript">
+    $(document).ready(function () {
+
+        $.ajax({
+            type: 'GET',
+            url: "/reservation/GetReservation",
+            data: {
+                "limit": 100,
+                "skip": 0,
+
+            },
+            success: function (data) {
+                $("#tblReservation").DataTable({
+                    data: data.results,
+                    'columns': [
+                        {
+                            "data": "checkIn",
+                        },
+                        {
+                            "data": "checkOut",
+                        },
+                        {
+                            "data": "confirmationCode",
+                        },
+                        {
+                            "data": "listing",
+                            "render": function (data, type, row) {
+                                return '<span >' + data.title + '</span>';
+
+                            }
+                        },
+                        {
+                            "data": "guest",
+                            "render": function (data, type, row) {
+                                return '<span >' + data.fullName + '</span>';
+
+                            }
+                        }
+                    ]
+
+                });
+            }
+        });
+    });
+
+</script>
+}
+
